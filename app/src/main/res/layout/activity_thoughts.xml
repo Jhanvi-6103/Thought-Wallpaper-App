@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg1"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/et_custom_thought"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your thought"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="#8E8B8E"
+        android:background="@android:drawable/edit_text"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btn_add_thought"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Thought"
+        android:layout_gravity="center"
+        android:padding="12dp"
+        android:backgroundTint="#66A9ED"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="16dp" />
+
+    <ListView
+        android:id="@+id/list_thoughts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp" />
+</LinearLayout>

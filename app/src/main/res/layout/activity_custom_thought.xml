@@ -1,0 +1,20 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/et_custom_thought"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your thought" />
+
+    <Button
+        android:id="@+id/btn_save_thought"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#5B9DD0"
+        android:text="Save Thought" />
+</LinearLayout>
